@@ -40,7 +40,7 @@ namespace WpMigrator
 
                         Console.WriteLine($"File number: {htmlFile.index}. Path: {htmlFile.value}");
 
-                        innerContent.TranFormLinks(MigratorConfig.AbsHrefPath);
+                        innerContent.TransformLinks(MigratorConfig.AbsHrefPath);
                         innerContent.SanitizeTags();
 
                         try
