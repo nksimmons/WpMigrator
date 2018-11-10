@@ -11,6 +11,7 @@ namespace WpMigrator
 
         public static readonly string RootPath = ConfigurationManager.AppSettings["StaticFilesPath"];
         public static readonly string WordPressBaseUrl = ConfigurationManager.AppSettings["WordPressBaseUrl"];
+        public static readonly string CssSelectorToTargetMainContent = ConfigurationManager.AppSettings["CssSelectorToTargetMainContent"];
 
         public const int NumThreads = 5;
 

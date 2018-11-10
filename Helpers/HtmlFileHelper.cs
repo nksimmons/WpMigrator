@@ -27,7 +27,7 @@ namespace WpMigrator.Helpers
 
             title = document.QuerySelectorAll("h1")?.FirstOrDefault()?.InnerText;
 
-            var content = document.QuerySelectorAll(".content");
+            var content = document.QuerySelectorAll(MigratorConfig.CssSelectorToTargetMainContent);
 
             if (!content.Any())
             {
