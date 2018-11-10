@@ -6,7 +6,7 @@ namespace WpMigrator.Extensions
 {
     public static class ElementExtensions
     {
-        public static void TranFormLinks(this HtmlNode innerContent, string absPath)
+        public static void TransformLinks(this HtmlNode innerContent, string absPath)
         {
             var links = innerContent.SelectNodes("//a");
             if (links == null) return;
